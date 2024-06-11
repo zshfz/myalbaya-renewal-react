@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .left {
+    span {
+      cursor: pointer;
+    }
+
+    .mainBanner {
+      display: block;
+      font-size: 30px;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
+}
